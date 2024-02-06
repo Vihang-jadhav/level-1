@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:white;
+    
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav h3{
+        
+    font-size: 16px;
+    border: 2px solid black;
+    padding: 3px 5px;
+    border-radius: 50px;
+    font-weight: 500px;
+    border: 1.5px solid black;
+
+}
+#nav i{
+        
+    font-size: 16px;
+    border: 2px solid black;
+    padding: 3px 5px;
+    border-radius: 50px;
+    font-weight: 500px;
+    border: 1.5px solid black;
+}
+#nav h2{
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+
+}
+
+#nav button{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    font: weight 600px;
+    font-size: 16px; 
+    
+}
+#btn2{
+    border: none;
+    color: white;
+    background-color:orangered;
+  
+}
+#main>h1{
+    font-size: 120px;
+    text-transform: uppercase;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   width: 100%;
+   text-align: center;
+    
+
+}
+img{
+    height: 420px;
+    width: 340px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+}
+
+#img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#bot-left{
+    position:absolute;
+    bottom: 5%;
+    left: 3%;
+
+}
+
+#bot-right{
+  display: flex;  
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  transform: translate(-50%,-50%);
+ 
+  
+}
+#oye{
+    position:absolute;
+    bottom: 4%;
+    right: 5%;
+}
+
